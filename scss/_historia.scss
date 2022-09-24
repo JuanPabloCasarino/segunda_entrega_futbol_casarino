@@ -1,0 +1,45 @@
+.fotos-historia{
+    display: flex;
+    justify-content: space-around;
+    border: solid 3px black;
+    border-radius: 20px;
+    background: url(../assets/img/footer.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-right: 12px;
+}
+#primer-parrafo{
+    padding: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 36px 6px rgb(51 132 138);
+    border: $bordes-celestes;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#segundo-parrafo{
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: $bordes-celestes;
+    box-shadow: 0px 0px 36px 6px rgb(51 132 138);
+    text-align: center;
+}
+#ultima-info{
+    margin-top: 15px;
+    text-align: center;
+}
+#texto-marcado{
+    width: 700px;
+    border: 3px solid $color-usos;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: $color-usos;
+    color: aliceblue ; 
+    font-size: 20px;
+
+    
+}
