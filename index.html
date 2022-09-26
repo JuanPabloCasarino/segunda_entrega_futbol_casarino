@@ -14,26 +14,50 @@
 
 <body id="body-index">
     <header>
-        <div></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div id="logo-header"><img width="100px" src="./assets/img/logoblanco.png" alt="Logo"></div>
+                </div>
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#opciones">
+                            <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="opciones">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/partidos.html">PARTIDOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/historia.html">HISTORIA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/tienda.html">TIENDA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
-    <main id="main-index" class="container-fluid ">
+    <main id="main-index" class="container-fluid">
         <div id="row-1" class="row">
-            <nav class="col-2">
-                <ul class="animate__animated animate__backInLeft sticky-top ">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/partidos.html">Partidos actuales</a></li>
-                    <li><a href="pages/historia.html">Historia</a></li>
-                    <li><a href="pages/tienda.html">Tienda</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <div id="show" class="col-10">
+            <div id="show" class="col-12">
                 <div class="container-fluid">
                     <div class="row">
                         <h1>Champions League</h1>
                     </div>
                     <div class="row">
-                        <H2 id="subtitulo">Un poco de su historia...</H2>
+                        <h2 id="subtitulo">Un poco de su historia...</h2>
                         <p>La Liga de Campeones de la UEFA (en inglés y oficialmente, UEFA Champions League), también
                             conocida como Copa de Europa, es el torneo internacional oficial de fútbol más prestigioso a
                             nivel de clubes en Europa. Organizado por su estamento continental, la UEFA, es
@@ -53,86 +77,80 @@
                             subcampeones y, en 1999, los clasificados hasta el cuarto puesto, dependiendo del
                             coeficiente UEFA de cada liga,n°4 debiendo superar los de menor coeficiente una fase
                             previa
-                            <br>
-                            El ganador de esta competición disputa la Supercopa de Europa contra el campeón de la Liga
-                            Europa —la segunda competición continental—, y como representante de la confederación, el
-                            Mundial de Clubes de la FIFA. El vigente campeón es el Real Madrid Club de Fútbol,
-                            tras vencer al Liverpool Football Club, siendo a su vez el conjunto más laureado con
-                            catorce títulos; mientras que la Federación Española es la que más campeonatos ha logrado
-                            con diecinueve, seguida por Inglaterra con catorce e Italia con doce</p>
+                        </p>
                     </div>
                     <div class="row">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-12" id="fotos-uno">
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/estadio1.jpg"
-                                            alt="Estadio de futbol"></th>
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/estadio2.jpg"
-                                            alt="Estadio de futbol"></th>
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/pelota1.jpg"
-                                            alt="Estadio de futbol"></th>
+                                <div class="col-12">
+                                    <div class="container-fluid">
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 bordes"><img
+                                                    class="medidas" src="assets/img/estadio1.jpg"
+                                                    alt="Estadio de futbol">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 bordes"><img
+                                                    class="medidas" src="assets/img/estadio2.jpg"
+                                                    alt="Estadio de futbol">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 bordes"><img
+                                                    class="medidas" src="assets/img/pelota1.jpg"
+                                                    alt="Estadio de futbol">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 bordes "><img
+                                                    class="medidas" src="assets/img/estadio3.jpg"
+                                                    alt="Estadio de futbol">
+                                            </div>
+                                            <div id="cartel-medio"
+                                                class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                                <p>
+                                                    El ganador de esta competición disputa la Supercopa de Europa contra
+                                                    el campeón de la Liga
+                                                    Europa —la segunda competición continental—, y como representante de
+                                                    la confederación, el
+                                                    Mundial de Clubes de la FIFA. El vigente campeón es el Real Madrid
+                                                    Club de Fútbol,
+                                                    tras vencer al Liverpool Football Club, siendo a su vez el conjunto
+                                                    más laureado con
+                                                    catorce títulos; mientras que la Federación Española es la que más
+                                                    campeonatos ha logrado
+                                                    con diecinueve, seguida por Inglaterra con catorce e Italia con doce
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 bordes"><img
+                                                    class="medidas" src="assets/img/estadio4.jpg"
+                                                    alt="Estadio de futbol">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 bordes"><img
+                                                    class="medidas" src="assets/img/estadio5.jpg"
+                                                    alt="Estadio de futbol">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 bordes"><img
+                                                    class="medidas" src="assets/img/partido2.jpg"
+                                                    alt="Estadio de futbol">
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 bordes"><img
+                                                    class="medidas" src="assets/img/partido4.jpg"
+                                                    alt="Estadio de futbol">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12" id="fotos-dos">
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/estadio1.jpg"
-                                            alt="Estadio de futbol"></th>
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/pelota1.jpg"
-                                            alt="Estadio de futbol"></th>
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/estadio2.jpg"
-                                            alt="Estadio de futbol"></th>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12" id="fotos-tres">
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/estadio1.jpg"
-                                            alt="Estadio de futbol"></th>
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/estadio2.jpg"
-                                            alt="Estadio de futbol"></th>
-                                    <th class="bordes"><img class="animacion-fotos" width="30%" src="assets/img/pelota1.jpg"
-                                            alt="Estadio de futbol"></th>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div id="tabla" class="container">
-                            <div class="row">
-                                <div class="col-3">Maximos goleadores</div>
-                                <div class="col-3">Mas partidos</div>
-                                <div class="col-3">Maximos ganadores</div>
-                                <div class="col-3">Mas partidos</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
-                                <div class="col-3">Lorem</div>
                             </div>
                         </div>
                     </div>
                     <div id="info-copa" class="row">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6"><img id="copa"
+                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 text-center"><img id="copa"
                                         height="300px" src="./assets/img/copalinda.png" alt=""></div>
                                 <div id="acordion" class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6">
                                     <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -228,15 +246,17 @@
                 </div>
                 <div class="col-4">
                     <ul class="social-media" class="list-group-item">
-                        <li class="list-group-item">Podes buscarnos en:</li>
+                        <li class="list-group-item"><a href="https://www.instagram.com/championsleague/"><img
+                                    height="27px" src="./assets/img/ig.png" alt="Instagram"></a></li>
                         <hr>
-                        <li class="list-group-item"><img height="27px" src="./assets/img/ig.png" alt="Instagram"></li>
+                        <li class="list-group-item"><a href="https://www.facebook.com/ChampionsLeague/"><img
+                                    height="27px" src="./assets/img/fb.png" alt="Facebook"></a></li>
                         <hr>
-                        <li class="list-group-item"><img height="27px" src="./assets/img/fb.png" alt="Facebook"></li>
+                        <li class="list-group-item"><a href="https://www.youtube.com/c/ESPNFans"><img height="27px"
+                                    src="./assets/img/yt.png" alt="Youtube"></a></li>
                         <hr>
-                        <li class="list-group-item"><img height="27px" src="./assets/img/yt.png" alt="Youtube"></li>
-                        <hr>
-                        <li class="list-group-item"><img height="27px" src="./assets/img/tw.png" alt="Twitter"></li>
+                        <li class="list-group-item"><a href="https://twitter.com/ChampionsLeague"><img height="27px"
+                                    src="./assets/img/tw.png" alt="Twitter"></a></li>
                     </ul>
                 </div>
 
@@ -250,7 +270,7 @@
                         <li class="list-group-item"><a class="links-ayuda"
                                 href="https://gaming.uefa.com/es/uefachampionsleague">Gaming</a></li>
                         <hr>
-                        <li class="list-group-item"><a class="links-ayuda" href="https://store.uefa.com">Pagina Oficila
+                        <li class="list-group-item"><a class="links-ayuda" href="https://store.uefa.com">Pagina oficial
                                 de la Uefa</a></li>
                         <hr>
                         <li class="list-group-item"></li>
